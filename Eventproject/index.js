@@ -28,7 +28,7 @@ app.listen(PORT, ()=>{
 })   
 
 app.get("/", (req, res)=>{
-    return res.status(200).json({message: "welcome to Kenneth back-end"})
+    return res.status(200).json({message: "welcome to Kenneth back-end for event management"})
 })
  app.use(routes)
 
